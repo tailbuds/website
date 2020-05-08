@@ -39,6 +39,7 @@ html {
   margin-left: 60px;
   height: auto;
   width: 30%;
+  overflow: visible;
 }
 .footer__content {
   width: 30%;
@@ -73,6 +74,7 @@ html {
     margin-left: 60px;
     height: auto;
     width: 30%;
+    overflow: visible;
   }
   .footer__content {
     width: 30%;
@@ -108,6 +110,7 @@ html {
     margin-left: 10%;
     height: auto;
     width: 60%;
+    overflow: visible;
   }
   .footer__content {
     width: 60%;
