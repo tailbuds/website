@@ -1,88 +1,81 @@
-body, html {
-    height: 100%;
-     /* The image used */
-     background-image: url("./assets/img/Background.svg");
+body,
+html {
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+  /* The image used */
+  background-image: url('./assets/img/Background.svg');
 
-     /* Full height */
-     height: 100%;
+  /* Full height */
+  height: 100%;
 
-     /* Center and scale the image nicely */
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-  }
-.image1{
-    width: auto;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image1 {
+  width: auto;
+  position: absolute;
+  right: 0px;
+  bottom: 3px;
+}
+@media only screen and (max-width: 480px),
+  only screen and (max-device-width: 480px) {
+  .image1 {
+    width: 100%;
     position: absolute;
     right: 0px;
     bottom: 3px;
-
-}
-@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
-    .image1{
-        width: 100%;
-        position: absolute;
-        right: 0px;
-        bottom: 3px;
-
-    }
-
+  }
 }
 
-.content{
-    text-align: left;
-    font-weight: 400;
-    margin-top: 30px;
-    margin-left: 15px;
-    color: whitesmoke;
-    font-size: 30px;
-    font-family:sans-serif;
-    align-self: center;
-
+.content {
+  text-align: left;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-left: 15px;
+  color: whitesmoke;
+  font-size: 30px;
+  font-family: sans-serif;
+  align-self: center;
 }
 
-.photo span{
-    margin-left: 15px;
+.photo span {
+  margin-left: 15px;
+  margin-top: 60px;
+  text-align: left;
+  font-weight: 600;
+  margin-top: 30px;
+
+  color: whitesmoke;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.photo img {
+  margin-bottom: 40px;
+  vertical-align: middle;
+  height: 20%;
+  width: 20%;
+}
+
+@media only screen and (max-width: 640px),
+  only screen and (max-device-width: 640px) {
+  .photo span {
     margin-top: 60px;
     text-align: left;
     font-weight: 600;
     margin-top: 30px;
-
     color: whitesmoke;
-    font-size: 40px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
 
-.photo img{
-
-    margin-bottom: 40px;
-    vertical-align:middle;
-    height: 20%;
-    width: 20%;
-}
-
-@media only screen and (max-width: 640px), only screen and (max-device-width: 640px) {
-
-    .photo span{
-
-        margin-top: 60px;
-        text-align: left;
-        font-weight: 600;
-        margin-top: 30px;
-        color: whitesmoke;
-        font-size: 35px;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-
-
-    }
-
-    .photo img{
-
-        margin-bottom: 30px;
-        vertical-align:middle;
-        height: 30%;
-        width: 30%;
-
-
-}
+  .photo img {
+    margin-bottom: 30px;
+    vertical-align: middle;
+    height: 30%;
+    width: 30%;
+  }
 }
