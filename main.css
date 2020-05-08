@@ -1,4 +1,9 @@
-/* Tailbuds Private LimitedProject-WebsiteAuthors: AK Hanish <akhanish7@gmail.com>, Revanth Nemani <raynemani@gmail.com> */
+/*
+Tailbuds Private Limited
+Project-Website
+Authors: AK Hanish <akhanish7@gmail.com>, Revanth Nemani <raynemani@gmail.com>
+*/
+
 body,
 html {
   margin: 0;
@@ -45,66 +50,70 @@ html {
 
 @media only screen and (max-width: 768px),
   only screen and (max-device-width: 768px) {
-  .tagline__content {
+  .header__logo {
+    margin-top: 1%;
+    margin-left: 20px;
+    height: 7.5%;
+    width: 7.5%;
+  }
+
+  .header__end {
+    margin-left: 20px;
+    height: auto;
+    width: auto;
+  }
+  .content__heading {
+    margin-top: 12%;
+    margin-left: 40px;
+    height: auto;
     width: 35%;
-    margin-right: 15px;
+  }
+  .content__message {
+    margin-top: 10px;
+    margin-left: 60px;
+    height: auto;
+    width: 30%;
+  }
+  .footer__content {
+    width: 30%;
+    margin-right: 20px;
     position: absolute;
     right: 0px;
     bottom: 3px;
-  }
-  .logo img {
-    margin-left: 20px;
-    margin-top: 2%;
-    height: auto;
-    width: 9%;
-  }
-  .welcome img {
-    margin-right: 10px;
-    height: 30%;
-    width: 50%;
-  }
-  .content img {
-    margin-right: 10px;
-    height: 30%;
-    width: 30%;
-  }
-  .header__end img {
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 3%;
-    width: 80%;
   }
 }
 
 @media only screen and (max-width: 480px),
   only screen and (max-device-width: 480px) {
-  .tagline__content {
+  .header__logo {
+    margin-top: 3%;
+    margin-left: 20px;
+    height: 20%;
+    width: 20%;
+  }
+
+  .header__end {
+    margin-left: 5%;
+    height: auto;
+    width: auto;
+  }
+  .content__heading {
+    margin-top: 50%;
+    margin-left: 5%;
+    height: auto;
+    width: 75%;
+  }
+  .content__message {
+    margin-top: 10px;
+    margin-left: 10%;
+    height: auto;
     width: 60%;
-    margin-right: 10px;
+  }
+  .footer__content {
+    width: 60%;
+    margin-right: 5%;
     position: absolute;
     right: 0px;
     bottom: 3px;
-  }
-  .logo img {
-    margin-left: 20px;
-    margin-top: 2%;
-    height: auto;
-    width: 20%;
-  }
-  .welcome img {
-    margin-right: 10px;
-    height: 30%;
-    width: 50%;
-  }
-  .content img {
-    margin-right: 10px;
-    height: 30%;
-    width: 30%;
-  }
-  .header__end img {
-    margin-left: 20px;
-    margin-right: 20px;
-    height: auto;
-    width: auto;
   }
 }
